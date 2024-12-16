@@ -1,16 +1,28 @@
 {
-  "name": "use-double-click",
+  "name": "use-double-click-hook",
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Diogo Moretti",
+    "email": "diogo.pearljam@gmail.com",
+    "url": "https://github.com/diogomoretti"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "release": "npm run build && npm publish --access public && npm run publish-tag",
+    "publish-tag": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags",
+    "build:demo": "vite build --config vite.demo.config.ts"
   },
   "dependencies": {
+    "@types/node": "^22.10.2",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

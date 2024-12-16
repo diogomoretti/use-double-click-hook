@@ -1,6 +1,6 @@
 <img src="./src/logo.png" width="50">
 
-# use-double-click
+# Use Double Click Hook
 
 A React hook to detect double clicks.
 
@@ -8,23 +8,23 @@ A React hook to detect double clicks.
 
 **Using npm:**
 ```bash
-npm install use-double-click
+npm install use-double-click-hook
 ```
 
 **Using yarn:**
 ```bash
-yarn add use-double-click
+yarn add use-double-click-hook
 ```
 
 **Using pnpm:**
 ```bash
-pnpm add use-double-click
+pnpm add use-double-click-hook
 ```
 
 ## Usage
 
 ```tsx
-import { useDoubleClick } from 'use-double-click';
+import { useDoubleClick } from 'use-double-click-hook';
 
 const MyComponent = () => {
   const handleClick = useDoubleClick({
@@ -39,10 +39,10 @@ const MyComponent = () => {
 
 ## Options
 
-|option|type|default|description|required|
+|parameter|type|default|description|required|
 |---|---|---|---|---|
-|`onSuccess`|`function`|`() => {}`|A function to be called when a double click is detected.|`true`|
-|`delay`|`number`|`300`|The delay in milliseconds between the first and second click.|`false`|
+|`onSuccess`|`function`|`() => {}`|A function to be called when a double click is detected.|Yes|
+|`delay`|`number`|`300`|The delay in milliseconds between the first and second click.|No|
 
 ## License
 

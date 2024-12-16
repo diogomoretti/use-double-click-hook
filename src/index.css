@@ -9,6 +9,17 @@
   color: #fff;
 }
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
 body {
   background-color: var(--secondary-color);
   color: var(--primary-color);

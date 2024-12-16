@@ -38,7 +38,7 @@ export function DoubleClickDemo() {
         </p>
 
         <p className="build-with">
-          Build with 💙 by <a href="https://github.com/diogomoretti" target="_blank" rel="noreferrer">Diogo Moretti</a> • <a href="https://github.com/diogomoretti/use-double-click" target="_blank" rel="noreferrer">View on GitHub</a>
+          Build with 💙 by <a href="https://github.com/diogomoretti" target="_blank" rel="noreferrer">Diogo Moretti</a> • <a href="https://github.com/diogomoretti/use-double-click-hook" target="_blank" rel="noreferrer">View on GitHub</a>
         </p>
       </div>
     </div>
