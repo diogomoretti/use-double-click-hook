@@ -37,10 +37,10 @@ const MyComponent = () => {
 
 ## Options
 
-|option|type|default|description|
-|---|---|---|---|
-|`delay`|`number`|`300`|The delay in milliseconds between the first and second click.|
-|`onSuccess`|`function`|`() => {}`|A function to be called when a double click is detected.|
+|option|type|default|description|required|
+|---|---|---|---|---|
+|`onSuccess`|`function`|`() => {}`|A function to be called when a double click is detected.|`true`|
+|`delay`|`number`|`300`|The delay in milliseconds between the first and second click.|`false`|
 
 ## License
 
