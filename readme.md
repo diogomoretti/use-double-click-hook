@@ -1,3 +1,5 @@
+<img src="./src/logo.png" width="50">
+
 # use-double-click
 
 A React hook to detect double clicks.
