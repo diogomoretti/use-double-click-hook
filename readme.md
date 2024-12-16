@@ -4,6 +4,8 @@
 
 A React hook to detect double clicks.
 
+> [View Demo ➔](https://diogomoretti.github.io/use-double-click-hook/)
+
 ## Installation
 
 **Using npm:**
