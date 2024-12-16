@@ -4,7 +4,9 @@
 
 A React hook to detect double clicks.
 
-> [View Demo ➔](https://diogomoretti.github.io/use-double-click-hook/)
+> ✨ [View Demo ➔](https://diogomoretti.github.io/use-double-click-hook/)
+
+<br>
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/diogomoretti/use-double-click-hook/demo.yml?style=flat-square&label=GH%20Pages) ![NPM Version](https://img.shields.io/npm/v/use-double-click-hook?style=flat-square)
 
